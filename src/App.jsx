@@ -40,6 +40,7 @@ function App() {
       return;
     }
 
+
     var month_diff = Date.now() - realDate.getTime();
 
     var age_dt = new Date(month_diff);
